@@ -1,0 +1,38 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.data {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 20rem;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+input {
+    max-width: 2rem;
+    margin: 3px;
+}
+#quality {
+    margin: 3px 0px;
+    padding: 2px;
+}
+button {
+    padding: 4px;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(114, 114, 229);
+    color: white;
+}
+body {
+    padding: 27px;
+    font-family: "Red Hat Text";
+}
+header {
+    color: rgb(114, 114, 229);
+    text-align: center;
+}
